@@ -1,3 +1,13 @@
+:root{
+    --bg-white-color: white;
+    --bg-light-grey: #d3d3d3;
+    --bg-light-blue: #1d90ff;
+    --bg-light-pink: #ffbfcb;
+    --bg-green: #238b21;
+    --bg-tuchesing: #20b1aa;
+    --dark-not-black: #23272a;
+
+}
 * {
   margin: 0;
   padding: 0;
@@ -18,8 +28,7 @@
 /* ------HEADER------ */
 #navbar {
   display: flex;
-
-  background-color: aqua;
+  background-color: #add8e6;
   flex-wrap: nowrap;
   padding: 1.5rem 20rem;
 }
@@ -58,3 +67,76 @@ ul {
   justify-content: flex-end;
 }
 /* --END----HEADER------ */
+/* ----JUMBOTRON------ */
+#jumbotron {
+    padding: 20px 240px;
+    background-color: #00008b;
+    height: 240px;
+}
+.jumbotron_content{
+    align-content: center;
+    text-align: center;
+    flex-grow: 1;
+    border: 1px dotted black;
+    padding: 10px;
+    height: 190px;
+    background-color: #ee81ee;
+}
+/* --END----JUMBOTRON------ */
+/* ----INVITE_ONLY----*/
+#invite_only {
+    padding: 20px 170px;
+    flex-wrap: nowrap;
+    background-color: var(--bg-white-color);
+    height: 285px;
+}
+.invite_only_large_item{
+    align-content: center;
+    text-align: center;
+    border: 1px dotted black;
+    order: 1;
+    flex-grow: 2;
+    background-color: var(--bg-light-blue);
+    height: 235px;
+    
+
+}
+.invite_only_strict_item {
+    align-content: center;
+    text-align: center;
+    border: 1px dotted black;
+    order: 2;
+    flex-grow: 1;
+    background-color: var(--bg-light-pink);
+    height: 235px;
+
+}
+/* --END--INVITE_ONLY----*/
+/* ----COMMUNITY----- */
+#community {
+    padding: 20px 170px;
+    flex-wrap: nowrap;
+    background-color: var(--bg-light-grey);
+    height: 285px;
+}
+.community_large_item{
+    align-content: center;
+    text-align: center;
+    border: 1px dotted black;
+    order: 1;
+    flex-grow: 2;
+    background-color: var(--bg-light-blue);
+    height: 235px;
+    
+
+}
+.community_strict_item {
+    align-content: center;
+    text-align: center;
+    border: 1px dotted black;
+    order: 2;
+    flex-grow: 1;
+    background-color: var(--bg-light-pink);
+    height: 235px;
+}
+/* --END--COMMUNITY----- */
