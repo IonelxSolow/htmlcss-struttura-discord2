@@ -72,7 +72,7 @@ ul {
 /* ----JUMBOTRON------ */
 #jumbotron {
   display: flex;
- 
+
   background-color: #00008b;
   height: 240px;
 }
@@ -90,12 +90,11 @@ ul {
 #invite_only {
   display: flex;
   padding: 20px 170px;
-  
+
   background-color: var(--bg-white-color);
   height: 285px;
 }
 .invite_only_large_box {
-  
   width: 50%;
   align-content: center;
   text-align: center;
@@ -117,15 +116,14 @@ ul {
 }
 /* --END--INVITE_ONLY----*/
 /* ----COMMUNITY----- */
-#community{
+#community {
   display: flex;
   padding: 20px 170px;
-  
+
   background-color: var(--bg-white-color);
   height: 285px;
 }
 .community_large_box {
-  
   width: 50%;
   align-content: center;
   text-align: center;
@@ -150,12 +148,11 @@ ul {
 #fandom {
   display: flex;
   padding: 20px 170px;
-  
+
   background-color: var(--bg-white-color);
   height: 285px;
 }
 .fandom_large_box {
-  
   width: 50%;
   align-content: center;
   text-align: center;
@@ -192,3 +189,33 @@ ul {
   background-color: var(--bg-green);
 }
 /* --END---TECNOLOGY---- */
+/* ----FOOTER---- */
+#footer {
+  display: flex;
+  background-color: var(--dark-not-black);
+  height: 300px;
+  /*   padding: ; */
+}
+.footer_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  align-content: center;
+  text-align: center;
+  border: 1px dotted black;
+  padding: 10px;
+  height: 275px;
+  background-color: var(--bg-green);
+}
+.footer_large_box {
+  border: 1px dotted white;
+  background-color: #ef8080;
+  height: 170px;
+}
+.footer_strict_box {
+  background-color: #20b1aa;
+  border: 1px dotted white;
+  height: 170px;
+}
+/* --END--FOOTER---- */
