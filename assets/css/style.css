@@ -85,7 +85,8 @@ ul {
 /* --END----JUMBOTRON------ */
 /* ----INVITE_ONLY----*/
 #invite_only {
-    padding: 20px 170px;
+   
+    padding: 25px 170px;
     flex-wrap: nowrap;
     background-color: var(--bg-white-color);
     height: 285px;
@@ -124,13 +125,40 @@ ul {
     text-align: center;
     border: 1px dotted black;
     order: 1;
+    flex-grow: 1;
+    background-color: var(--bg-light-pink);
+    height: 235px;
+}
+.community_strict_item {
+    align-content: center;
+    text-align: center;
+    border: 1px dotted black;
+    order: 2;
+    flex-grow: 2;
+    background-color: var(--bg-light-blue);
+    height: 235px;
+}
+/* --END--COMMUNITY----- */
+/* ----FANDOM---- */
+#fandom {
+   
+    padding: 25px 170px;
+    flex-wrap: nowrap;
+    background-color: var(--bg-white-color);
+    height: 285px;
+}
+.fandom_large_item{
+    align-content: center;
+    text-align: center;
+    border: 1px dotted black;
+    order: 1;
     flex-grow: 2;
     background-color: var(--bg-light-blue);
     height: 235px;
     
 
 }
-.community_strict_item {
+.fandom_strict_item {
     align-content: center;
     text-align: center;
     border: 1px dotted black;
@@ -138,5 +166,6 @@ ul {
     flex-grow: 1;
     background-color: var(--bg-light-pink);
     height: 235px;
+
 }
-/* --END--COMMUNITY----- */
+/* --END--FANDOM---- */
